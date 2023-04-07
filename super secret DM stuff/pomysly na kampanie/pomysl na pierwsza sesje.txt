@@ -1,21 +1,28 @@
 tawerna -> 
 -> party wchodzi i rozglada sie (DM opisuje tawerne (cos do wymyslenia)) -> 
--> party zasiada do stulu/baru ->
--> podchodzi do nich postac (preferable starzec/sus dude) -> 
--> oferuje w miare prosta robote
+-> party zasiada do baru/stolu ->
+-> podchodzi do nich postac starzec (just ordinary starzec po 80stce, ale zachowuje sie podejrzanie, nerwowo sie rozglada (a*)) -> 
+-> oferuje w miare prosta robote (get in, get the shit, get out) ->
 
-if(party == accept){
-ida do dangeonu ->
--> walka (latwa aby nauczyc sie mechanik)->
--> wychodza z dangeonu ->
--> everyone happy
-}
-else if(party == deny){
-cos wymysl (preffelable przekonaj ich aby poszli) ->
--> jak nie ida:
-a) burda w tawernie
-b) chuj z nimi (oby nie bo sie sesja skonczy przedwczesnie)
-}
-else{
-let them have fun in the tavern (let them do whatever the fuck they want to)
-}
+	if(party == accept){
+		starzec omawia szegoly:
+		- dangeon niedaleko gory nieopodal tawerny
+		- dengeon teoretycznie mialbyc pusty. sike bitches pulapka
+		ida do dangeonu ->
+		-> walka (latwa aby nauczyc sie mechanik)->
+		- walka z 2 lub 3 goblinami + 1 wilk (liczba moze ulec zmianie w zaleznsci od ilosci czlonkow party)
+		-> wychodza z dangeonu ->
+		-> DM happy
+	}
+	else if(party == deny){
+		cos wymysl (preffelable przekonaj ich aby poszli) ->
+		-> jak nie ida:
+		a) burda w tawernie (alternatywa dla dangeonu (nauka mechanik walki))
+		b) chuj z nimi (oby nie bo sie sesja skonczy przedwczesnie)
+	}
+	else{
+		let them have fun in the tavern (let them do whatever the fuck they want to)
+	}
+
+INFO W RAZIE W JAKBY PARTY SPOTKALO POSTAC RAZ JESZCZE
+a* - nerwowo sie rozglada bo jakas wyzsza sila porwala wnoczke dziadka i trzyma ja jako zakladnik. dziadek jest zmuszony grac jak mu zagraja
