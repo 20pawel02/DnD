@@ -1,0 +1,21 @@
+tawerna -> 
+-> party wchodzi i rozglada sie (DM opisuje tawerne (cos do wymyslenia)) -> 
+-> party zasiada do stulu/baru ->
+-> podchodzi do nich postac (preferable starzec/sus dude) -> 
+-> oferuje w miare prosta robote
+
+if(party == accept){
+ida do dangeonu ->
+-> walka (latwa aby nauczyc sie mechanik)->
+-> wychodza z dangeonu ->
+-> everyone happy
+}
+else if(party == deny){
+cos wymysl (preffelable przekonaj ich aby poszli) ->
+-> jak nie ida:
+a) burda w tawernie
+b) chuj z nimi (oby nie bo sie sesja skonczy przedwczesnie)
+}
+else{
+let them have fun in the tavern (let them do whatever the fuck they want to)
+}
